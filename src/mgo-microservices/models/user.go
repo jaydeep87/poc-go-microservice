@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/poc-go-microservice/src/mgo-microservices/db"
+	"github.com/jaydeep87/poc-go-microservice/src/mgo-microservices/db"
 	"gopkg.in/mgo.v2/bson"
 )
 

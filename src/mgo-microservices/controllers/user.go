@@ -4,7 +4,7 @@ import (
 	"fmt"
 	// json library
 
-	"github.com/poc-go-microservice/src/mgo-microservices/models"
+	"github.com/jaydeep87/poc-go-microservice/src/mgo-microservices/models"
 
 	"github.com/gin-gonic/gin"
 )

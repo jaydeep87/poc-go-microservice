@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	config "github.com/jaydeep87/poc-go-pg/config"
-	routes "github.com/jaydeep87/poc-go-pg/routes"
+	config "github.com/jaydeep87/poc-go-microservice/src/pg-microservices/config"
+	routes "github.com/jaydeep87/poc-go-microservice/src/pg-microservices/routes"
 )
 
 func main() {
@@ -19,5 +19,5 @@ func main() {
 	// Route Handlers / Endpoints
 	routes.Routes(router)
 
-	log.Fatal(router.Run(":8081"))
+	log.Fatal(router.Run(":8082"))
 }

@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	controllers "github.com/jaydeep87/poc-go-pg/controllers"
+	controllers "github.com/jaydeep87/poc-go-microservice/src/pg-microservices/controllers"
 )
 
 func Routes(router *gin.Engine) {

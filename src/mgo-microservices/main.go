@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/poc-go-microservice/src/mgo-microservices/controllers"
+	"github.com/jaydeep87/poc-go-microservice/src/mgo-microservices/controllers"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
 )

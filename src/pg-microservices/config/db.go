@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-pg/pg/v9"
 
-	"github.com/jaydeep87/poc-go-pg/controllers"
+	"github.com/jaydeep87/poc-go-microservice/src/pg-microservices/controllers"
 )
 
 // Connect function
