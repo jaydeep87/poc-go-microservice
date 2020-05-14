@@ -9,6 +9,7 @@ import (
 	"github.com/go-pg/pg/v9"
 	orm "github.com/go-pg/pg/v9/orm"
 	guuid "github.com/google/uuid"
+	// _ "github.com/jaydeep87/poc-go-microservice/src/pg-microservices/logger"
 )
 
 type User struct {
@@ -53,7 +54,7 @@ func GetAllUsers(c *gin.Context) {
 		})
 		return
 	}
-
+	log.Printf("GET /users accessed")
 	c.JSON(http.StatusOK, gin.H{
 		"status":  http.StatusOK,
 		"message": "All Users",
